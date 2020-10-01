@@ -303,4 +303,8 @@ window.addEventListener('DOMContentLoaded', function() {
             closeModal();
         }, 4000);
     }
+
+    fetch("http://localhost:3000/menu")
+        .then(response => response.json())
+        .then(json => json.forEach(item => console.log(item)));
 });
