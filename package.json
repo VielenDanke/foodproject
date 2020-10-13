@@ -18,5 +18,9 @@
   "homepage": "https://github.com/VielenDanke/foodproject#readme",
   "devDependencies": {
     "json-server": "^0.16.2"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
   }
 }
